@@ -17,4 +17,17 @@ public class Clase {
     private boolean pantalones;
     
     private double peso;
+
+    public Clase(int altura, String camiseta, boolean pantalones, double peso) {
+        this.altura = altura;
+        this.camiseta = camiseta;
+        this.pantalones = pantalones;
+        this.peso = peso;
+    }
+
+    public Clase() {
+    }
+    
+    
 }
+
