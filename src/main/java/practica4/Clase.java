@@ -27,6 +27,38 @@ public class Clase {
 
     public Clase() {
     }
+
+    public int getAltura() {
+        return altura;
+    }
+
+    public String getCamiseta() {
+        return camiseta;
+    }
+
+    public boolean isPantalones() {
+        return pantalones;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setAltura(int altura) {
+        this.altura = altura;
+    }
+
+    public void setCamiseta(String camiseta) {
+        this.camiseta = camiseta;
+    }
+
+    public void setPantalones(boolean pantalones) {
+        this.pantalones = pantalones;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
     
     
 }
