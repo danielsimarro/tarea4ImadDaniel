@@ -10,5 +10,11 @@ package practica4;
  * @author NitroPc
  */
 public class Clase {
+    private int altura;
     
+    private String camiseta;
+    
+    private boolean pantalones;
+    
+    private double peso;
 }
