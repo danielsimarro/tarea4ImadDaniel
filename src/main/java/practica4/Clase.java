@@ -59,6 +59,11 @@ public class Clase {
     public void setPeso(double peso) {
         this.peso = peso;
     }
+
+    @Override
+    public String toString() {
+        return "Clase{" + "altura=" + altura + ", camiseta=" + camiseta + ", pantalones=" + pantalones + ", peso=" + peso + '}';
+    }
     
     
 }
